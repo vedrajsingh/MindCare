@@ -1,27 +1,16 @@
-# MindCare - AI Mental Health Companion
+# React + Vite
 
-MindCare is a supportive AI-powered tool designed to provide mental health assistance and emotional guidance. Built for the **HACKATHON 2026**, it leverages AI to offer a safe space for users to express themselves and receive personalized wellness suggestions.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
-* **AI Counseling**: Uses the Gemini API to provide empathetic responses and mental health resources.
-* **Mood Tracking**: A simple interface to log and visualize your emotional well-being.
-* **Stress Relief Exercises**: Personalized suggestions for mindfulness and breathing techniques.
-* **Clean & Calming UI**: A soothing design built with Tailwind CSS to ensure a stress-free user experience.
+Currently, two official plugins are available:
 
-## Tech Stack
-* **Frontend**: React.js & Tailwind CSS
-* **Logic**: JavaScript (ES6)
-* **AI Brain**: Gemini API (for sentiment analysis and conversational support)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Setup Instructions
-1. Clone this repository.
-2. Run `npm install` to set up dependencies.
-3. Add your Gemini API Key in the `.env` file.
-4. Run `npm run dev` to launch the application.
+## React Compiler
 
-Made by:-
-* Vedraj Singh
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
+## Expanding the ESLint configuration
 
----
-**Disclaimer**: MindCare is an AI-based support tool and not a substitute for professional medical advice, diagnosis, or treatment.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
